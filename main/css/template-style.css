@@ -2237,19 +2237,6 @@ tm-portfolio-name {
 
 
 
-
-
-
-
-.tm-portfolio-description {
-  width: calc(100% - 330px);
-  padding: 10px 45px;
-}
-
-.tm-portfolio-description h3 {
-  margin-bottom: 20px;
-}
-
 @media (max-width: 612px) {
   .tm-portfolio-item {
       flex-direction: column;
