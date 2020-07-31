@@ -1238,7 +1238,8 @@ p.form-success {
 @media screen and (max-width:768px) {
     
     .top-nav .right {
-      float: none;
+	float: none;
+	
     }
     nav {
         padding: 10px 0;
@@ -2228,4 +2229,44 @@ video {
     .logo-white {
 	display:none;
     }
+}
+@media screen and (max-width: 493px)
+tm-portfolio-name {
+    display:none;
+}
+
+
+
+
+
+
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 10px 45px;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 612px) {
+  .tm-portfolio-item {
+      flex-direction: column;
+    
+  }
+
+  .tm-portfolio-name {
+      justify-content: center;
+     
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: center;
+  }
 }
