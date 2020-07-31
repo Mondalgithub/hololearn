@@ -2182,4 +2182,11 @@ video {
     font-family: 'Pacifico', cursive;
     }
 }
-
+@media screen and (max-width: 493px) {
+    .logo-dark {
+	display:none;
+    }
+    .logo-white {
+	display:none;
+    }
+}
