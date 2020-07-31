@@ -2221,3 +2221,11 @@ video {
   background: #ff1a1a;
   color: white;
 }
+@media screen and (max-width: 493px) {
+    .logo-dark {
+	display:none;
+    }
+    .logo-white {
+	display:none;
+    }
+}
