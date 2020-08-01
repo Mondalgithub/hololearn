@@ -1,6 +1,3 @@
-/* Default Template Styles */
-
-/* Typography */
 body {
   background: #fff;
 }
@@ -2243,17 +2240,57 @@ tm-portfolio-name {
     
   }
 
+
   .tm-portfolio-name {
-      justify-content: center;
-     
+      width: 70%
+  }
+  .tm-portfolio-description {
+      width: 60%;
   }
 
-  .tm-portfolio-name,
-  .tm-portfolio-description {
-    width: 100%;
+}
+@media (max-width: 500px) {
+  .tm-portfolio-item {
+      flex-direction: column;
+    
   }
 
-  .tm-portfolio-description {
-    padding: center;
+
+  .tm-portfolio-name {
+      width: 80%
   }
+  .tm-portfolio-description {
+      width: 65%;
+  }
+
+}
+@media (max-width: 400px) {
+  .tm-portfolio-item {
+      flex-direction: column;
+    
+  }
+
+
+  .tm-portfolio-name {
+      width: 100%
+  }
+  .tm-portfolio-description {
+    width: 80%;
+  }
+
+}
+@media (max-width: 350px) {
+  .tm-portfolio-item {
+      flex-direction: column;
+    
+  }
+
+
+  .tm-portfolio-name {
+      width: 117%
+  }
+  .tm-portfolio-description {
+    width: 90%;
+  }
+
 }
