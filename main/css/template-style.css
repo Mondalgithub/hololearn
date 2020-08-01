@@ -2,7 +2,7 @@ body {
   background: #fff;
 }
 p {
-    color: black;
+    color: #777;
   font-size: 0.85rem;
   line-height: 1.6rem;
 }
@@ -1228,19 +1228,35 @@ p.form-success {
   border-left: 1px solid #dd442c !important;
 }
 
-
-
+/* -1120px version */
+@media screen and (max-width:1120px) {
+  .size-1140 .line.content-center-vertical {
+      padding: 0 2rem;
+  }
+}
 
 /* -768px version */
 @media screen and (max-width:768px) {
-    
-    .top-nav .right {
-	float: none;
-	
+     .top-nav .right {
+      float: none;
     }
-    nav {
-        padding: 10px 0;
-        height: 60px;
+    .lo
+     .nav-text {
+      color: #fff;
+      display: block;
+      font-size: 1.2rem;
+      line-height: 3rem;
+      margin-right: 0.625rem;
+      max-width: 100%;
+    
+     
+    }
+    .nav-text::after {
+      color: #002633;
+      display: inline-block;
+      font-size: 2.3rem;
+      margin-left: 0;
+      margin-top: -20px;
     }
     .logo img {
       width: 172px;
@@ -1252,8 +1268,8 @@ p.form-success {
     .top-nav li a, .background-white .top-nav li a {
       background: #002633 none repeat scroll 0 0;
       color: #fff;
-      font-size: 1.1em;
-      padding: 1em;
+      font-size: 2.1em;
+      padding: 5rem;
       text-align: center;
     }
     aside {
@@ -1934,7 +1950,7 @@ nav {
 }
 nav.fixed, .fixed nav {
   background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.09);
   padding: 0 2em;
 }
 nav.fixed .top-nav li a, .fixed nav .top-nav li a {
@@ -2044,13 +2060,11 @@ video {
 @media screen and (max-width:768px) {
   header.position-absolute {
     background: #fff none repeat scroll 0 0;
-    position: relative;
+    position:absolute;
  
   }
-
-
-  nav {
-      height: 70px;
+   nav {
+       height: 70px;
   }
   .logo img {
       height: 60px; 
@@ -2063,7 +2077,8 @@ video {
     display:block;
   }
   .nav-text::after {
-    color: black;
+      color: black;
+      padding-left:93%;
   }
   .fixed {
     position: relative;
@@ -2218,14 +2233,6 @@ video {
 .btn:hover {
   background: #ff1a1a;
   color: white;
-}
-@media screen and (max-width: 493px) {
-    .logo-dark {
-	display:none;
-    }
-    .logo-white {
-	display:none;
-    }
 }
 @media screen and (max-width: 493px)
 tm-portfolio-name {
