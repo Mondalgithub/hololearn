@@ -469,10 +469,11 @@ aside.aside-left {
     color: black; !important;
 }
 .text-primary, .text-primary *, .primary-color-primary .text-primary, .primary-color-primary .text-primary * {
-  color: #C81010 !important;
+    color: #C81010 !important;
 }
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
-  color: #002633 !important;
+    color: #002633 !important;
+    
 } 
 .text-white-hover, .text-primary-hover, .text-dark-hover {
   transition: color 0.20s linear 0s;
@@ -480,9 +481,11 @@ aside.aside-left {
   -ms-transition: color 0.20s linear 0s;
   -moz-transition: color 0.20s linear 0s;
   -webkit-transition: color 0.20s linear 0s;
+  
 }
 .text-white-hover:hover, .primary-color-white .text-primary-hover:hover {
-  color: #fff !important;
+    color: #fff !important;
+    
 }
 .text-primary-hover:hover, .primary-color-primary .text-primary-hover:hover {
   color: #C81010 !important;
@@ -1240,7 +1243,7 @@ p.form-success {
      .top-nav .right {
       float: none;
     }
-    .lo
+    
      .nav-text {
       color: #fff;
       display: block;
@@ -2061,6 +2064,7 @@ video {
   header.position-absolute {
     background: #fff none repeat scroll 0 0;
     position:absolute;
+  
  
   }
    nav {
@@ -2274,7 +2278,7 @@ tm-portfolio-name {
 @media (max-width: 400px) {
   .tm-portfolio-item {
       flex-direction: column;
-    
+      font-size:0px;
   }
 
 
@@ -2286,18 +2290,32 @@ tm-portfolio-name {
   }
 
 }
-@media (max-width: 350px) {
-  .tm-portfolio-item {
-      flex-direction: column;
-    
-  }
+@media (max-width: 588px) {
+.text-size-50, .text-l-size-50 {
+  font-size: 40px !important;
+  line-height: 1;
+}
+}
+@media (max-width: 480px) {
+.text-white * {
+    color: black; !important;
+    font-size:30px;
+   
+}
+.text-size-50, .text-l-size-50 {
+  font-size: 30px !important;
+  line-height: 1;
+}
 
-
-  .tm-portfolio-name {
-      width: 117%
-  }
-  .tm-portfolio-description {
-    width: 90%;
-  }
-
+.text-size-14 {
+    font-size:12px;
+    padding-bottom:5.5rem;
+     line-height: 1.6;
+}
+}
+@media (max-width: 374px) {
+.text-size-50, .text-l-size-50 {
+  font-size: 24px !important;
+  line-height: 1;
+}
 }
