@@ -91,9 +91,10 @@ h6.headline, .h6.headline {
 .text-size-70, .text-l-size-70 {
   font-size: 70px !important;
   line-height: 1.4;
-} 
+}
+
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 .text-right {
   text-align: right;
@@ -264,7 +265,7 @@ hr.break-small {
   width: 60px;
 }
 hr.break-small.break-center {
-  margin: 20px auto 35px;
+    margin: 20px auto 35px;
 }
 hr.break-small.break-double {
   height: 0; 
@@ -1247,8 +1248,8 @@ p.form-success {
      .nav-text {
       color: #fff;
       display: block;
-      font-size: 1.2rem;
-      line-height: 3rem;
+      font-size: 1rem;
+      line-height: 5rem;
       margin-right: 0.625rem;
       max-width: 100%;
     
@@ -2316,6 +2317,13 @@ tm-portfolio-name {
 @media (max-width: 374px) {
 .text-size-50, .text-l-size-50 {
   font-size: 24px !important;
+  line-height: 1;
+}
+}
+ @media (max-width: 332px) {
+.text-size-50, .text-l-size-50 {
+    font-size: 20px !important;
+    padding-top:10px;
   line-height: 1;
 }
 }
