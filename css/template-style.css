@@ -2276,6 +2276,13 @@ tm-portfolio-name {
       width: 60%;
   }
 }
+
+@media (max-width: 588px) {
+.text-size-50, .text-l-size-50 {
+  font-size: 40px !important;
+  line-height: 1;
+}
+}
 @media (max-width: 500px) {
   .tm-portfolio-item {
       flex-direction: column;
