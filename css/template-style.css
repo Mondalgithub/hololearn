@@ -1567,8 +1567,9 @@ p.form-success {
         line-height: 1.4;
     }
     .text-m-size-50 {
-        font-size: 50px !important;
+        font-size: 40px !important;
         line-height: 1.4;
+	font-family: 'Bungee Shade', cursive;
     }
     .text-m-size-60 {
         font-size: 60px !important;
@@ -2273,6 +2274,9 @@ tm-portfolio-name {
   }
   .tm-portfolio-description {
       width: 60%;
+  }
+  .margin-bottom-30 {
+      padding-top:10rem;
   }
 
 }
