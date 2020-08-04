@@ -2275,10 +2275,6 @@ tm-portfolio-name {
   .tm-portfolio-description {
       width: 60%;
   }
-  .margin-bottom-30 {
-      padding-top:10rem;
-  }
-
 }
 @media (max-width: 500px) {
   .tm-portfolio-item {
