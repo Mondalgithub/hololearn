@@ -1995,7 +1995,7 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
   width: 100%;
 }
 .top-nav li a {
-  color: #fff;
+  color:  #404040;
   padding: 1.5rem;
   opacity: 0.7;
   transition: all 0.20s linear 0s;
@@ -2021,7 +2021,7 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
 
 .background-transparent-hightlight .top-nav .active-item > a, .background-transparent-hightlight .top-nav li a:hover, .background-transparent-hightlight .aside-nav li a:hover, .background-transparent-hightlight .aside-nav > ul > li.active-item > a:link, .background-transparent-hightlight .aside-nav > ul > li.active-item > a:visited {
   background: rgba(255, 255, 255, 0.08) none repeat scroll 0 0;
-  color: #fff;
+  color: blue;
   opacity: 1;
 }
 nav.background-transparent-hightlight.fixed .top-nav .active-item > a, nav.background-transparent-hightlight.fixed .top-nav li a:hover, nav.background-transparent-hightlight.fixed .aside-nav li a:hover, nav.background-transparent-hightlight.fixed .aside-nav > ul > li.active-item > a:link, nav.background-transparent-hightlight.fixed .aside-nav > ul > li.active-item > a:visited {
