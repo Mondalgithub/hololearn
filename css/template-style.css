@@ -6,6 +6,36 @@ p {
   font-size: 0.85rem;
   line-height: 1.6rem;
 }
+.box {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 2.5px 1px rgba(0, 0, 0, 0.06),
+  0 2.3px 1.9px rgba(0, 0, 0, 0.072),
+  0 5.8px 7.4px rgba(0, 0, 0, 0.086),
+  0 30px 20px rgba(0, 0, 0, 0.12);
+
+  
+  padding-left:20px;
+  min-height: 26rem;
+  width: 21rem;
+  margin: 20px;
+  background: white;
+  border-radius: 3px;
+  border-spacing: 3px;
+   display: block;
+   padding: 2.5rem!important;
+   text-align:center;
+ }
+
+
+.grow:hover
+{
+         transition:all 0.3s ease;
+        -webkit-transform: scale(1.08);
+        -ms-transform: scale(1.08);
+        transform: scale(1.08);
+}
 a, a:link, a:visited, a:hover, a:active { 
 color: #777;
 }
@@ -1237,6 +1267,7 @@ p.form-success {
 
 /* -768px version */
 @media screen and (max-width:768px) {
+
      .top-nav .right {
       float: none;
     }
@@ -1291,6 +1322,10 @@ p.form-success {
     .margin-m-top {
       margin-top: 1.25rem !important;
       display: block;
+    }
+    .box {
+       width: 94%;
+       display:block;
     }
     .margin-m-bottom {
         margin-bottom: 1.25rem !important;
@@ -1601,6 +1636,9 @@ p.form-success {
       margin: 0 auto;
       padding: 0;
       text-align: center;
+    }
+    .box {
+	width:91%;
     }
     .margin-s-top {
         margin-top: 1.25rem !important;
@@ -2318,7 +2356,6 @@ tm-portfolio-name {
       flex-direction: column;
     
   }
-
 
   .tm-portfolio-name {
       width: 117%
